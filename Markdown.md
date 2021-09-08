@@ -9,5 +9,5 @@ Itallic and bold text can be created with one and two sets of asterix's surround
 Lists can be made in two ways:
 * Prefacing lines with an asterix and a space (unordered list)
 2. Prefacing lines with a number and a period and then a space (1., 2., etc.) (ordered list)
-  a. Sublists can be created with letters or numbers in the same manner as above.
+   a. Sublists can be created with letters or numbers in the same manner as above.
 
