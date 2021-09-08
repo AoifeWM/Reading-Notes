@@ -9,5 +9,8 @@ Itallic and bold text can be created with one and two sets of asterix's surround
 Lists can be made in two ways:
 * Prefacing lines with an asterix and a space (unordered list)
 2. Prefacing lines with a number and a period and then a space (1., 2., etc.) (ordered list)
-3. a. Sublists can be created with letters or numbers in the same manner as above.
 
+Quotes can be made by putting a \> and a space before a line, for example
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Links can be added in this format: \[This is a link to google\]\(https://google.com\) which will appear as [This is a link to google](https://google.com)
