@@ -5,3 +5,9 @@ Markdown is a language which is used to quickly format text for github, and vari
 ## Sample markdown formats
 Headers can be created by starting a new line and adding a number of hashtags (#) up to 6 and then a space, and then adding the desired text. The more hashtags, the smaller the header is. 
 Itallic and bold text can be created with one and two sets of asterix's surrounding the text, respectively. For instance, \*itallics\* will appear as *itallics* and \*\*bold\*\* as **bold**.
+
+Lists can be made in two ways:
+* Prefacing lines with an asterix and a space (unordered list)
+2. Prefacing lines with a number and a period and then a space (1., 2., etc.) (ordered list)
+  a. Sublists can be created with letters or numbers in the same manner as above.
+
