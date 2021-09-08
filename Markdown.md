@@ -13,4 +13,4 @@ Lists can be made in two ways:
 Quotes can be made by putting a \> and a space before a line, for example
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-Links can be added in this format: \[This is a link to google\]\(https://google.com\) which will appear as [This is a link to google](https://google.com)
+Links can be added in this format: \[This is a link to google\]\(https://google.com) which will appear as [This is a link to google](https://google.com)
