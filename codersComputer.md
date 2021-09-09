@@ -16,5 +16,10 @@ Many different text editors are availiable for use. In the end, they all serve t
 
 The command line is a powerful tool which lets you interact with your computer much more directly than standard visual user interfaces. Understanding how to use your command line is an important first step in learning to code. Here are some important commands you may want to memorize:
 * cd: this command changes the directory your command line is 'looking at', and can be used in reference to your current folder, or you can specify an entire path to any file on your system.
-* ls: this command lists all the files in your current directory
+* ls: this command lists all the files in your current directory.
 * mkdir \[name\]: this command creates a new folder with a set name.
+* touch \[name.extension\]: this command creates a new file with a set name and extension, for instance document.text.
+* rm \[name\]: this command removes a given file or folder. Watch out what you put after it!
+* mv \[file to move\] \[location to move to\]: this command moves a file from one place to another.
+* clear: this command simply clears all the text in the window.
+* cp \[file\] \[location\]: this command makes a new copy of the selected file in the selected location.
