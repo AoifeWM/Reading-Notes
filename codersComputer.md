@@ -22,4 +22,4 @@ The command line is a powerful tool which lets you interact with your computer m
 * rm \[name\]: this command removes a given file or folder. Watch out what you put after it!
 * mv \[file to move\] \[location to move to\]: this command moves a file from one place to another.
 * clear: this command simply clears all the text in the window.
-* cp \[file\] \[location\]: this command makes a new copy of the selected file in the selected location.
+* cp \[file\] \[location\]: this command makes a new copy of the selected file in the selected location
