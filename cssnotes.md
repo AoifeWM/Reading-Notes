@@ -1,6 +1,6 @@
 # CSS notes
 
-CSS stands for cascading style sheets, and it's a language which allows you to edit the style and appearance of a basic html webpage. Where html is the foundation of a house, CSS is the paint, the furniture, and the interior design. CSS is important for making a webpage look appealing and have a smooth user experience. 
+CSS stands for cascading style sheets, and it's a language which allows you to edit the style and appearance of a basic html webpage. Where html is the foundation of a house, CSS is the paint, the furniture, and the interior design. CSS is important for making a webpage look appealing and have a smooth user experience.
 
 ## Basic CSS syntax
 
@@ -9,7 +9,7 @@ The basic syntax of CSS is defining an element, and then defining how you want t
     `font-size: 14px;`
     `color: blue;`
 `\}`
-A full CSS document will have many of these elements, one after the other, defining how each HTML element should appear. 
+A full CSS document will have many of these elements, one after the other, defining how each HTML element should appear.
 
 ## How to inpliment CSS
 
@@ -29,7 +29,7 @@ An internal stylesheet is defined with the `\<style\>...\</style>` tag (within t
 
 ### Inline
 
-Inline styles are added to individual elements with the `style` modifier, for example, `\<p style="font-size: 14px;color: blue;"\>...\</p>` would achieve the same result as the example in **basic CSS syntax**. This method makes the HTML messier and less legible, so it should be used very sparingly. Styles added to elements like this will not apply to other elements of the same type, unless also manually specified. 
+Inline styles are added to individual elements with the `style` modifier, for example, `\<p style="font-size: 14px;color: blue;"\>...\</p>` would achieve the same result as the example in **basic CSS syntax**. This method makes the HTML messier and less legible, so it should be used very sparingly. Styles added to elements like this will not apply to other elements of the same type, unless also manually specified.
 
 ## Colors
 
