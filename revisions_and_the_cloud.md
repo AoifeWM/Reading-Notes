@@ -8,7 +8,7 @@ GitHub is way of saving git repositories in the cloud, so that they may be worke
 The chains of past versions that git creates are called 'branches'. The most recent and up to date version is called the "head". New branches can be split off from the head, or previous branches. 
 
 ## The ACP process
-ACP is an essential process in working with git. It stands for "Add, Commit, Push". First, you work on a piece of code, making changes, additions, or deletions to it. Then, you **add** that file so that github knows you'd like to save it to the version control system. Next, you **commit** those changes, which is a process sort of like saving, and the local branch of your code is updated with those changes, and the version control process is taken care of automatically, saving the past and current version of your code. After that, you **push** the changes, uploading those changes onto the copy of your code saved on GitHub.
+ACP is an essential process in working with git. It stands for "Add, Commit, Push". First, you work on a piece of code, making changes, additions, or deletions to it. Then, you **add** that file so that github knows you'd like to save it to the version control system; the file is now considered tracked. Next, you **commit** those changes, which is a process sort of like saving, and the local branch of your code is updated with those changes, and the version control process is taken care of automatically, saving the past and current version of your code. After that, you **push** the changes, uploading those changes onto the copy of your code saved on GitHub.
 
 ## Important git commands 
 There are a number of commands which are essential for working with github.
