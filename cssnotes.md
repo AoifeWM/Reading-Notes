@@ -36,5 +36,5 @@ Inline styles are added to individual elements with the `style` modifier, for ex
 Colors in CSS can be achieved multiple ways; the following three examples will all achieve the same result.
 
 * `color : red;`: Words for basic colors can be used.
-* `color : #00ff00;`: Hexidecimal color codes can be used.
-* `color : rgb(0,0,255);`: RGB color values can be used.
+* `color : #ff0000;`: Hexidecimal color codes can be used.
+* `color : rgb(255,0,0);`: RGB color values can be used.
