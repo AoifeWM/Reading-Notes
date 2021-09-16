@@ -11,3 +11,4 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 5: CSS](cssnotes.md)
 * [Lesson 6: Javascript basics](jsnotes.md)
 * [Lesson 7: Functions in javascript](functionsinjs.md)
+* [Lesson 8: Operators and Loops in javascript](jsoperatorsandloops.md)
