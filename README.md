@@ -1,6 +1,6 @@
 # Reading notes for codefellows 102
 
-Hi all! This is the table of contents page for my reading notes page for codefellows 102 class. You can press the links below to go to any of the specified pages. You can also check out the site I made [here](https://aoifewm.github.io/petphotos/index.html)!
+Hi all! This is the table of contents page for my reading notes page for codefellows 102 class. You can press the links below to go to any of the specified pages. You can also check out the site I made [here](https://aoifewm.github.io/petphotos/index.html)! Thanks for stopping by!
 
 ## Table of contents
 
