@@ -1,6 +1,6 @@
 # Functions in javascript
 
-Javascript has a tool availiable in many programming languages called functions. Functions are individual packets of code that can be activated ('invoked' or 'called') many other times. Functions make code cleaner and more legible, recursion easier, and can save processing power and disk space when one chunk of code must be used in many places. 
+Javascript has a tool availiable in many programming languages called functions. Functions are individual packets of code that can be activated ('invoked' or 'called') many other times. Functions make code cleaner and more legible, recursion easier, and can save processing power and disk space when one chunk of code must be used in many places.
 
 ## Inputs and Outputs in functions
 

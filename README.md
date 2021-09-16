@@ -9,3 +9,5 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 3: Learning git and GitHub](revisions_and_the_cloud.md)
 * [Lesson 4: HTML](html.md)
 * [Lesson 5: CSS](cssnotes.md)
+* [Lesson 6: Javascript basics](jsnotes.md)
+* [Lesson 7: Functions in javascript](functionsinjs.md)
