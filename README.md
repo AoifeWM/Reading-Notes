@@ -1,8 +1,10 @@
-# Reading notes for codefellows 102
+# Reading notes for codefellows
 
-Hi all! This is the table of contents page for my reading notes page for codefellows 102 class. You can press the links below to go to any of the specified pages. You can also check out the site I made [here](https://aoifewm.github.io/petphotos/index.html)! Thanks for stopping by!
+## Code 102
 
-## Table of contents
+Hi all! This is the table of contents page for my reading notes page for codefellows classes. You can press the links below to go to any of the specified pages. You can also check out the site I made [here](https://aoifewm.github.io/petphotos/index.html)! Thanks for stopping by!
+
+### Table of contents
 
 * [Lesson 1: Growth mindset](growthmindset.md)
 * [Lesson 2: Setting up a computer to code, AKA the installfest](codersComputer.md)
@@ -12,3 +14,21 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 6: Javascript basics](jsnotes.md)
 * [Lesson 7: Functions in javascript](functionsinjs.md)
 * [Lesson 8: Operators and Loops in javascript](jsoperatorsandloops.md)
+
+## Code 201
+
+* Lesson 1
+* Lesson 2
+* Lesson 3
+* Lesson 4
+* Lesson 5
+* Lesson 6
+* Lesson 7
+* Lesson 8
+* Lesson 9
+* Lesson 10
+* Lesson 11
+* Lesson 12
+* Lesson 13
+* Lesson 14
+* Lesson 15
