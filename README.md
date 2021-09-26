@@ -17,7 +17,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 
 ## Code 201
 
-* Lesson 1
+* [Lesson 1: Introductory Html and Javascript](class-01.md)
 * Lesson 2
 * Lesson 3
 * Lesson 4
