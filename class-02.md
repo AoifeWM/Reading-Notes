@@ -1,0 +1,40 @@
+# Basics of HTML, Javascript, and CSS
+
+## Text in HTML
+
+HTML contains tags used to alter how text appears and is structured on the webpage, called *markup*. There are two types of markup: semantic and structural. Structural markup changes how the text is structured, for instance, the `<p>` (paragraph) tag, the `<div>` tag, and the header tags (`<h1>` through `<h6>`). Semantic tags change how the text appears, for instance the bold and italic tags (`<b>` and `<i>`) and the super- and sub-script tags (`<sup>` and `<sub>`). The specific looks of these tags can be changed through CSS. You can also use the `<blockquote>` and `<abbr>` tags to add hoverable text that shows up explaining the citation or meaning of the abbreviation, using the `cite=""` and `title=""` attributes respectively. 
+
+## CSS
+
+CSS stands for 'cascading style sheet' and it's the language used to change the appearance of the webpage. CSS treats each element in HTML as a box surrounding its given content, and the appearance of that box and its contents can be changed. CSS can target these tags as groups, for example `p {background-color: red;}` will change the background of ALL paragraphs to red, or it can be used by specific id or class (attributes of the tags which are determined in the HTML doc itself), for instance `#exampleid {background-color: red;}` will change the background of ALL elements with the attribute `id="exampleid`, regardless of what kind of element they are. This can be easily used to select individual elements for specific changes. CSS rules are brokenn up into a few parts: the *selector*, which determines which elements the rule will apply to, for instance in the first example of this paragraph it would be the `p`, followed by a *declaration*, which is contained in the curly brackets (`{}`). The declaration is also broken up into 2 parts: the *properties* and the *values*. In the first example the property would be `background-color` and the value would be `red`. Each different property has a specific variety of values which can be applied to it, for instance the background-color property accepts values of colors as words (ie. `red`), RGB values, and CMYK values. 
+According to best practice, CSS rules should be contained on their own file, called a stylesheet, although they can also be added directly into the HTML document. The advantage of having it as a seperate document is that many different pages can call on the same CSS file and easily achieve the exact same looks as a result.
+
+## Basic Javascript Instructions
+
+### Variables in Javascript
+
+Javascript contains a few basic types of ways to store information, called *variables*. Each type of variable stores different types of information and can be used to interact with other variables in various ways. Here are some of the most basic types of variables:
+
+* numeric: These variables are used to store numbers. They can be positive or negative, whole numbers or decimals, it doesn't matter, javascript stores them all as the same kind of unit.
+* string: These variables hold text, or more accurately, a series of characters. These variables can hold almost anything but cannot be used directly in mathematics like numeric variables can.
+* boolean: These variables store one of two values, either `true` or `false`. These variables are often used for conditional statements (ie. only do X when Y condition is met). They can't be used directly in math, but many other variables can be turned into boolean variables, for instance by comparing them with an "equals to", "and", "or", or "not" statement.
+* arrays: these variables store multiple pieces of information, not necessarily of the same type, which can be represented by the above values.
+* objects: these are arbitrary and can contain many different variables within them. Different objects can act very differently and their behavior and stored information can be set up and edited by the developer.
+* null and undefined: these variables occur when a variable is assigned no information, or isn't assigned information, respectively. For instance, `let var1 = null;` and `let var1;` will create a null variable and an undefined variable respectively.
+
+### Expressions and operators
+
+Expressions are statements with multiple values that, when run, solidify into a single value. Here are some examples: `1+1`, which evaluates to 2, `var1 + var2 + var3` which evaluates differently depending on the values of the variables, `var1 === var2`, which evaluates as `true` (boolean value) if `var1` and `var2` are the same, and `"Hi " + userName + ", Welcome to class!"` which evaluates as a string; for instance, if `userName` equals Aoife, the statement evaluates to a string with the value of `"Hi Aoife, Welcome to class!"`. *Operators* are the signs used to determine how these values are compared to create a new value. Here are some example operators:
+
+* `=`: this operator *sets* the first value (must be a variable) to the second value. For instance `myVar = "Dogs"` makes `myVar` become a string variable type if it isn't already, and sets its value to `"Dogs"`.
+* `+` , `-` , `*` , `/`: these work as basic math operators, just as you'd expect. `+` is also used to combine strings, for instance `"Cats" + " and " + "Dogs"` will evaluate to the new string `"Cats and Dogs"`
+* `===`: this is a boolean operator to compare if two variables are the same value *and* variable type. It will only evaluate to `true` if they are, otherwise it will evaluate to `false`.
+* `+=`: this is basically shorthand for "add the two values, and then set the first value to the result." For instance, if `var1` equals 1, and you run `var1 += 5`, var1 will now equal 2. This also works for `-=`.
+* `++` and `--`: this is basically shorthand for "add one to the current value and then assign that result to the first value" and "subtract one from the current value and then assign that result to the first value", respectively. For instance, if `var1` is six, `var1++` will make `var1` now equal 7, or `var1--` will make `var1` now equal 5.
+
+### Decisions in JS
+
+There are various methods to control how your code operates. You may want certain parts of your code to run only if specific condition are fulfilled. For instance, if a user enters the correct password, they should be allowed access to the site, otherwise they should be prompted to try again. These are called *conditional statements*. The main way to create these is through *if* statements. If statemenets are structured like this: `if ([expression]) { [code] }`. The if statement will not run the `[code]` you've inserted, unless the `[expression]` in round brackets evaluates to `true`. You can append an *else* statement to the end of an if statement; this will only run if the preceding conditional expression does **not** evaluate as true. This would be structured like this: `if ([expression]) { [code] } else { [different code] }`. These conditional statements should use *comparison operators* which evaluate to some boolean, for example, `===` (strict equals), `<` (is less than), `>=` (is greater than or equal to), and `!=` (does not equal). You can evaluate multiple statements using logical connectors (for example, and, or, not, which are `&&`, `||`, `!`, respectively). 
+For example, if you want somebody to chose a number between one to ten, and you've set their chosen number to the variable `userChoice`, you can write a statement like this: 
+`if (userChoice >= 1 && userChoice <= 10) { [code you want to execute once they've chosen a valid number] } else { [code indicating to the user that they've chosen an invalid number.] }`
+The conditional statement reads in regular speech: "userChoice is greater than or equal to 1, and userChoice is less than or equal to 10". The code inside the if statement will only execute if *both* of these statements are true, because they have a logical AND operator between them.
