@@ -1,0 +1,19 @@
+# HTML Links, JS Functions, and CSS layout
+
+## Links in HTML
+
+Links are an important element in HTML. They can be achieved using the `<a>` tag surrounding the text you would like to have the link connected to. The location to be linked to is determined by the `href=""` attribute. You can use the full ("*absolute*") URL of an outside website, (ie. `href="https://www.thisisanexampleurl.com"`) or you can use a *relative* url to link to a page in your own site (ie. `href="index.html"` or `href="userPages/Aoife.html"`). You can make these links open in a new window by adding the attribute `target="_blank"`. You can link to another element in the same page (for instance, if the page is very long, you may want a table of contents at the top that links to each section below), by giving the elements an `id` attribute (ie. `id="exampleSection"`) attribute and then linking to that id with a hashtag like this: `href="#exampleSection"`. You can do this with a link to another page as well, by appending a hashtag and an ID to the end of the link in question. You can also add a link to email somebody with the format `href="mailto:example@example.com"`.
+
+## CSS layout
+
+Well-made layouts in CSS can be achieved in a number of ways. The `<div>` tag can be a useful way of grouping pieces of content and tagging them with IDs or classes to reference in CSS. 
+
+### Positioning
+
+By default, these groups will display top to bottom, one after the other, each filling the entire page, and they will move with the page (not the browser window) as the user scrolls it. This can be achieved with the `position:static;` attribute in css, but this is usually unecessary because it is the default behavior in most browsers.
+ Relative positioning is changing where these elements sit in comparison to other elements. They will otherwise work the same as the default. This can be achieved with the `position : relative;` attribute, and then defining various directions, for instance `right:100px;` will place it 100 pixels to the right of where it would otherwise be placed, and so on. You can also use percentages which will scale based on the size of the browser window.
+ Absolute positioning keeps the element in the same position relative to its surrounding element, and ignores the placement of other elements. This can be achieved with the `position:absolute;` attribute in CSS. Absolutely positioned elements will be ignored by other elements when determing how they display, so you should be careful that text doesn't go under a picture, or something like that. The same positioning attributes (ie `top`, `left`) as relative positioning can be used to alter where it is displayed.
+Fixed positioning keeps the element in the same place relative to the browser window instead. This can be accomplished with the `position : fixed;` attribute. This element will stay in place on the browser window regardless of other elements and how the page is scrolled. This is useful for many purposes, for instance, making the header or footer remain at the top or bottom of the screen respectively, even as the user scrolls the page.
+Floating elements are a bit more complicated; they act like relative positioning but other elements can flow around them; for instance, if you make a picture float on the left-middle of a container, the other elements in the container such as text will flow around them without overlapping them. This is called a *block level* element. The tag for this is `float: left` or `float: right`. The width tag can be used to make sure the floated element is the correct proportions. You can stack multiple floating elements against each other by placing them one after another. For instance, to make 3 collumns of text, you could set the attributes of your `<p>` tags in CSS to be `float left` and `width: 33%`. Each collumn would float, one after the other, and not overlap, each taking up a third of the browser window.
+
+### Fixed vs. Liquid Layouts
