@@ -21,7 +21,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 2: Basics of HTML, CSS, and Javascript](class-02.md)
 * [Lesson 3: HTML lists, Control flow with JS, and the CSS box model](class-03.md)
 * [Lesson 4: HTML Links, JS Functions, and CSS layout](class-04.md)
-* Lesson 5
+* [Lesson 5: Images, Color, and Text](class-05.md)
 * Lesson 6
 * Lesson 7
 * Lesson 8
