@@ -22,7 +22,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 3: HTML lists, Control flow with JS, and the CSS box model](class-03.md)
 * [Lesson 4: HTML Links, JS Functions, and CSS layout](class-04.md)
 * [Lesson 5: Images, Color, and Text](class-05.md)
-* Lesson 6
+* [Lesson 6: Problem domain, objects, and the DOM](class-06.md)
 * Lesson 7
 * Lesson 8
 * Lesson 9
