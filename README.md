@@ -23,7 +23,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 4: HTML Links, JS Functions, and CSS layout](class-04.md)
 * [Lesson 5: Images, Color, and Text](class-05.md)
 * [Lesson 6: Problem domain, objects, and the DOM](class-06.md)
-* Lesson 7
+* [Lesson 7: HTML tables; JS constructor functions](class-07.md)
 * Lesson 8
 * Lesson 9
 * Lesson 10
