@@ -27,7 +27,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 8: CSS layout](class-07.md)
 * Lesson 9
 * Lesson 10
-* Lesson 11
+* [Lesson 11: Images and useful misc. information](class-11.md)
 * Lesson 12
 * Lesson 13
 * Lesson 14
