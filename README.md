@@ -28,7 +28,7 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * Lesson 9
 * Lesson 10
 * [Lesson 11: Images and useful misc. information](class-11.md)
-* Lesson 12
-* Lesson 13
+* [Lesson 12: Chart.js and canvas](class-12.md)
+* [Lesson 13: Local Storage](class-13.md)
 * Lesson 14
 * Lesson 15

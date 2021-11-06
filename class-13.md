@@ -1,0 +1,4 @@
+# Local Storage
+
+Webapps have a disadvantage in local storage options compared with client applications. Webapps can use cookies, but these are slow and insecure as they have to be sent with every request, and on top of that won't store much information (4kb max). HTML5 introduced a new concept which changed this standard, called Web Storage. It is local storage (by default never sent back to the webpage) and can use 5MB of space. This storage is based on key/value pairs, like objects. Although it can accept all data types, they are stored as strings, so functions like `parseInt()` must be used to properly reinterpret them uppon retreival.
+They can be set and get with the functions `localStorage.getItem()` and `localStorage.setItem("key", value)` or with array notation, for instance `return localStorage["key"]` or `localStorage["key"] = value;`. An eventlistener can be attached to the `window` with dom manipulation to track whenever storage is changed.
