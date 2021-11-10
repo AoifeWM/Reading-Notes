@@ -30,5 +30,6 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 11: Images and useful misc. information](class-11.md)
 * [Lesson 12: Chart.js and canvas](class-12.md)
 * [Lesson 13: Local Storage](class-13.md)
-* Lesson 14
+* [Lesson 14a: CSS transfors, transitions, animations](class-14a.md)
+* [Lesson 14b: Teams and Teamwork](class-14b.md)
 * Lesson 15
