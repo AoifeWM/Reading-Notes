@@ -34,4 +34,6 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 14b: Teams and Teamwork](class-14b.md)
 * Lesson 15
 
-## Code 301
+## Code 401
+
+* [Lesson 1: Testing and Modules](4.1-testing-and-modules.md)
