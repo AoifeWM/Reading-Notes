@@ -37,3 +37,4 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 ## Code 401
 
 * [Lesson 1: Testing and Modules](4.1-testing-and-modules.md)
+* [Lesson 4: Classes and objects](4.1-classes-objects.md)
