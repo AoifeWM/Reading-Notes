@@ -38,3 +38,5 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 
 * [Lesson 1: Testing and Modules](4.1-testing-and-modules.md)
 * [Lesson 4: Classes and objects](4.1-classes-objects.md)
+* [Lesson 7: Ten-thousand 2](4.1-10000-2.md)
+* [Lesson 4: Ten-Thousand 3](4.1-10000-3.md)
