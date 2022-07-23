@@ -42,3 +42,4 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 4: Ten-Thousand 3](4.1-10000-3.md)
 * [Lesson 16: Serverless](4.1-serverless.md)
 * [Lesson 18: Intro to Crypto](4.1-introcrypto.md)
+* [Lesson 19: Automation](4.1-automation.md)
