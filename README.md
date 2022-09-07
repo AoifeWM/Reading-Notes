@@ -43,3 +43,4 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 16: Serverless](4.1-serverless.md)
 * [Lesson 18: Intro to Crypto](4.1-introcrypto.md)
 * [Lesson 19: Automation](4.1-automation.md)
+* [Lesson 33: Authentication and Production Server](4.1-auth-prod-server.md)
