@@ -45,3 +45,4 @@ Hi all! This is the table of contents page for my reading notes page for codefel
 * [Lesson 19: Automation](4.1-automation.md)
 * [Lesson 33: Authentication and Production Server](4.1-auth-prod-server.md)
 * [Lesson 37: React part 1](4.1-react-1.md)
+* [Lesson 38: React part 2](4.1-react-2.md)
